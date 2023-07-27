@@ -28,7 +28,7 @@ def updatePromot(index,newtext):
     
     return bot.update_prompt(index,newtext)
 
-bot = ChatGPTBot(api_key='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')
+bot = ChatGPTBot(api_key='Your_api_key')
 
 
 if __name__ == '__main__':
